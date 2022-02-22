@@ -29,7 +29,11 @@ namespace TriangleTracker
       {
         return "equilateral";
       }
-      else 
+      else if (SideA == SideB || SideB == SideC || SideA == SideC)
+      {
+        return "isoceles";
+      }
+      else
       {
         return "test";
       }
