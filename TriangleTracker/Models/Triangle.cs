@@ -11,5 +11,10 @@ namespace TriangleTracker
       SideB = sideB;
       SideC = sideC;
     }
+
+    public bool IsTriangle() 
+    {
+      return false;
+    }
   }
 }
