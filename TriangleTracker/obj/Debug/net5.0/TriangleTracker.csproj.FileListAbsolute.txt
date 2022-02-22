@@ -10,3 +10,7 @@ C:\Users\Kendotronic\Desktop\TriangleTracker.Solution\TriangleTracker\obj\Debug\
 C:\Users\Kendotronic\Desktop\TriangleTracker.Solution\TriangleTracker\obj\Debug\net5.0\TriangleTracker.dll
 C:\Users\Kendotronic\Desktop\TriangleTracker.Solution\TriangleTracker\obj\Debug\net5.0\ref\TriangleTracker.dll
 C:\Users\Kendotronic\Desktop\TriangleTracker.Solution\TriangleTracker\obj\Debug\net5.0\TriangleTracker.pdb
+C:\Users\Kendotronic\Desktop\TriangleTracker.Solution\TriangleTracker\bin\Debug\net5.0\TriangleTracker.exe
+C:\Users\Kendotronic\Desktop\TriangleTracker.Solution\TriangleTracker\bin\Debug\net5.0\TriangleTracker.runtimeconfig.json
+C:\Users\Kendotronic\Desktop\TriangleTracker.Solution\TriangleTracker\bin\Debug\net5.0\TriangleTracker.runtimeconfig.dev.json
+C:\Users\Kendotronic\Desktop\TriangleTracker.Solution\TriangleTracker\obj\Debug\net5.0\TriangleTracker.genruntimeconfig.cache
