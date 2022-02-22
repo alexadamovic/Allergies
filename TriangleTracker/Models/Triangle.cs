@@ -7,7 +7,9 @@ namespace TriangleTracker
     public int SideC { get; set; }
     public Triangle(int sideA, int sideB, int sideC)
     {
-
+      SideA = sideA;
+      SideB = sideB;
+      SideC = sideC;
     }
   }
 }
