@@ -6,19 +6,13 @@ namespace TriangleTracker.Tests
   [TestClass]
   public class TriangleTests
   {
-    private Triangle testTriangle;
-    [TestInitialize]
-    public void Initialize()
+    [TestMethod]
+    public void Triangle_MakeATriangle_SideASideBSideC()
     {
       int sideA = 2;
       int sideB = 4;
       int sideC = 3;
-      this.testTriangle = new Triangle(sideA, sideB, sideC);
-    }
-
-    [TestMethod]
-    public void Triangle_MakeATriangle_SideASideBSideC()
-    {
+      Triangle testTriangle = new Triangle(sideA, sideB, sideC);
       Assert.AreEqual(2, testTriangle.SideA);
       Assert.AreEqual(4, testTriangle.SideB);
       Assert.AreEqual(3, testTriangle.SideC);
@@ -27,17 +21,31 @@ namespace TriangleTracker.Tests
     [TestMethod]
     public void IsTriangle_NoSideIsGreaterThanSumOfOtherTwo_True()
     {
+      int sideA = 2;
+      int sideB = 4;
+      int sideC = 3;
+      Triangle testTriangle = new Triangle(sideA, sideB, sideC);
       Assert.AreEqual(true, testTriangle.IsTriangle());
     }
 
     [TestMethod]
     public void IsTriangle_NoSideIsGreaterThanSumOfOtherTwo_False()
     {
-      int sideOne = 2;
-      int sideTwo = 4;
-      int sideThree = 7;
-      Triangle wrongTriangle = new Triangle(sideOne, sideTwo, sideThree);
-      Assert.AreEqual(false, wrongTriangle.IsTriangle());
+      int sideA = 2;
+      int sideB = 4;
+      int sideC = 7;
+      Triangle testTriangle = new Triangle(sideA, sideB, sideC);
+      Assert.AreEqual(false, testTriangle.IsTriangle());
+    }
+
+    [TestMethod]
+    public void TriangleType_TriangleIsIsoceles_Equilateral()
+    {
+      int sideA = 4;
+      int sideB = 4;
+      int sideC = 4;
+      Triangle testTriangle = new Triangle(sideA, sideB, sideC);
+      Assert.AreEqual("equilateral", testTriangle.TriangleType());
     }
   }
 }

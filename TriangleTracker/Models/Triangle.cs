@@ -22,5 +22,10 @@ namespace TriangleTracker
         return true;
       }
     }
+
+    public string TriangleType()
+    {
+      return "test";
+    }
   }
 }
