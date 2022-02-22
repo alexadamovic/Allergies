@@ -14,7 +14,13 @@ namespace TriangleTracker
 
     public bool IsTriangle() 
     {
-      return false;
+      if(SideA + SideB < SideC || SideA + SideC < SideB || SideB + SideC < SideA) 
+      {
+        return false;
+      } else 
+      {
+        return true;
+      }
     }
   }
 }
