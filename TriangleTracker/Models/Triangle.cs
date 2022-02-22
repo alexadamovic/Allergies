@@ -35,7 +35,7 @@ namespace TriangleTracker
       }
       else
       {
-        return "test";
+        return "scalene";
       }
     }
   }
