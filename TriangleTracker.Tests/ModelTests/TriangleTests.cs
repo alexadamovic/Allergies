@@ -48,7 +48,7 @@ namespace TriangleTracker.Tests
       Assert.AreEqual("equilateral", testTriangle.TriangleType());
     }
 
-        [TestMethod]
+    [TestMethod]
     public void TriangleType_TriangleIsIsoceles_Isoceles()
     {
       int sideA = 4;
@@ -56,6 +56,16 @@ namespace TriangleTracker.Tests
       int sideC = 2;
       Triangle testTriangle = new Triangle(sideA, sideB, sideC);
       Assert.AreEqual("isoceles", testTriangle.TriangleType());
+    }
+
+    [TestMethod]
+    public void TriangleType_TriangleIsScalene_Scalene()
+    {
+      int sideA = 4;
+      int sideB = 3;
+      int sideC = 2;
+      Triangle testTriangle = new Triangle(sideA, sideB, sideC);
+      Assert.AreEqual("scalene", testTriangle.TriangleType());
     }
   }
 }
