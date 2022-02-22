@@ -1,0 +1,12 @@
+C:\Users\Kendotronic\Desktop\TriangleTracker.Solution\TriangleTracker\bin\Debug\net5.0\TriangleTracker.deps.json
+C:\Users\Kendotronic\Desktop\TriangleTracker.Solution\TriangleTracker\bin\Debug\net5.0\TriangleTracker.dll
+C:\Users\Kendotronic\Desktop\TriangleTracker.Solution\TriangleTracker\bin\Debug\net5.0\ref\TriangleTracker.dll
+C:\Users\Kendotronic\Desktop\TriangleTracker.Solution\TriangleTracker\bin\Debug\net5.0\TriangleTracker.pdb
+C:\Users\Kendotronic\Desktop\TriangleTracker.Solution\TriangleTracker\obj\Debug\net5.0\TriangleTracker.csproj.AssemblyReference.cache
+C:\Users\Kendotronic\Desktop\TriangleTracker.Solution\TriangleTracker\obj\Debug\net5.0\TriangleTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kendotronic\Desktop\TriangleTracker.Solution\TriangleTracker\obj\Debug\net5.0\TriangleTracker.AssemblyInfoInputs.cache
+C:\Users\Kendotronic\Desktop\TriangleTracker.Solution\TriangleTracker\obj\Debug\net5.0\TriangleTracker.AssemblyInfo.cs
+C:\Users\Kendotronic\Desktop\TriangleTracker.Solution\TriangleTracker\obj\Debug\net5.0\TriangleTracker.csproj.CoreCompileInputs.cache
+C:\Users\Kendotronic\Desktop\TriangleTracker.Solution\TriangleTracker\obj\Debug\net5.0\TriangleTracker.dll
+C:\Users\Kendotronic\Desktop\TriangleTracker.Solution\TriangleTracker\obj\Debug\net5.0\ref\TriangleTracker.dll
+C:\Users\Kendotronic\Desktop\TriangleTracker.Solution\TriangleTracker\obj\Debug\net5.0\TriangleTracker.pdb

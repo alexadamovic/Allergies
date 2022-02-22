@@ -7,10 +7,15 @@ namespace TriangleTracker.Tests
   public class TriangleTests
   {
     [TestMethod]
-    public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
+    public void Triangle_MakeATriangle_SideASideBSideC()
     {
-      // any necessary logic to prep for test; instantiating new classes, etc.
-      Assert.AreEqual(EXPECTED RESULT, CODE TO TEST);
+      int sideA = 2;
+      int sideB = 4;
+      int sideC = 3;
+      Triangle testTriangle = new Triangle(sideA, sideB, sideC);
+      Assert.AreEqual(2, testTriangle.SideA);
+      Assert.AreEqual(4, testTriangle.SideB);
+      Assert.AreEqual(3, testTriangle.SideC);
     }
   }
 }
