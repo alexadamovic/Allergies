@@ -14,7 +14,7 @@ namespace TriangleTracker
 
     public bool IsTriangle() 
     {
-      if(SideA + SideB < SideC || SideA + SideC < SideB || SideB + SideC < SideA) 
+      if (SideA + SideB < SideC || SideA + SideC < SideB || SideB + SideC < SideA) 
       {
         return false;
       } else 
@@ -25,7 +25,14 @@ namespace TriangleTracker
 
     public string TriangleType()
     {
-      return "test";
+      if (SideA == SideB && SideB == SideC) 
+      {
+        return "equilateral";
+      }
+      else 
+      {
+        return "test";
+      }
     }
   }
 }
