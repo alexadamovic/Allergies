@@ -1,5 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using TriangleTracker;
+using TriangleTracker.Models;
 
 namespace TriangleTracker.Tests
 {
