@@ -29,6 +29,16 @@ namespace TriangleTracker.Tests
     {
       Assert.AreEqual(true, testTriangle.IsTriangle());
     }
+
+    [TestMethod]
+    public void IsTriangle_NoSideIsGreaterThanSumOfOtherTwo_False()
+    {
+      int sideOne = 2;
+      int sideTwo = 4;
+      int sideThree = 7;
+      Triangle wrongTriangle = new Triangle(sideOne, sideTwo, sideThree);
+      Assert.AreEqual(false, wrongTriangle.IsTriangle());
+    }
   }
 }
 
